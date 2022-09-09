@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="{% url  'insertData' %}" method="post">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>Book Name</td>
+                <td><input type="text"name='bname'></td>
+            </tr>
+            <tr>
+                <td>Book author</td>
+                <td><input type="text"name='auth'></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td><input type="text"name='price'></td>
+            </tr>
+            <tr>
+                <td><input type="submit"value="insert"></td>
+            </tr>
+
+
+        </table>
+
+    </form>
+    
+</body>
+</html>

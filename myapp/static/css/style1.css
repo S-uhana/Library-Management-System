@@ -1,0 +1,20 @@
+.btn {
+    background-color: red; /* Blue background */
+    border: none; 
+    color: white; /* White text */
+    padding: 10px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-top: 0%;
+    margin-left: 150px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  body{
+    background-image: url("https://images.freeimages.com/images/previews/701/my-university-library-3-1442034.jpg");
+    background-size: 100%;
+  }
+  

@@ -1,0 +1,19 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1290141/pexels-photo-1290141.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: 90%;
+  }
+  .btn {
+    background-color: white; /* Blue background */
+    border: none; 
+    color: blue; /* White text */
+    padding: 10px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-top: 0%;
+    margin-left: 150px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
